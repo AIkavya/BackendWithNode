@@ -48,7 +48,7 @@ const server = http.createServer((req, res) =>
     const urll = url.parse(req.url, true);
     const { query, pathname,hash } = urll;
     
-    if (pathname === '/' || pathname === '/overview')
+    if (pathname === '/' || pathname === '/overview'  || pathname === 'https://aikavya.github.io/BackendWithNode/node-farm/')
     {
         res.writeHead(200, { "content-type": 'text/html'});
         let arrHtml = dataObj.map((el) => replaceContent(tempOverview, el))
