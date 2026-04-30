@@ -83,7 +83,7 @@ If you find this repository useful, consider giving it a ⭐ to support my work!
 
 ---
 
-## 🧠 Personal Note
+## 🧠 Personal NOTE :
 
 This repository reflects my commitment to becoming a skilled backend developer through consistent practice and real-world application.
 
